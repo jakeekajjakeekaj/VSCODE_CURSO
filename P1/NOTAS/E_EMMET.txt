@@ -1,0 +1,26 @@
+Emmet es un plug in para facilitar la crwación de ciertas cosas en html y css, tiene un funcionamiento similar al de los snippets.
+El Emmet convierte una abreviación en todo un fragmento de código, pot ejemplo cuanod escribimos HTML:5, con tan solo escribir HTML, ya nos sale e emmet, y al momento de seleccionarlo, ya nos pone la estructura necesaria sobre la cual comenzaremos a trabajar.
+
+Otro ejemplo del uso de los emmets, es cuando escribimos a, y ya nos escribe el código para incrustar el link y cierra la etiqueta y todo, o cuando escribimos un div, también nos pone el cerrado de etiqueta, o al escribir .clase ó #id y nos construye un div con la clase o el id, pues es lo mismo; incluso con el lorem por ejemplo.
+
+se puede colocar a*3 para crear 3 link de una.
+se puede colocar ul>li>a y nos crea un link, dentro de un li, dentro de un ul
+Con esto en mente podemos tener ul>li*4>a y nos daría como resultado:
+<ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+</ul>
+
+si escribimos ul>{texto} de esta manera indicamos que dentro de las llaves irá texto
+
+si escribimos ul>li*4{texto $} podemos colocar el texto y con el signo del dolar podemos escribir una secuencia de números
+
+Ahora bien a veces se puede ver muy compleja la estructura, sin embargo nosotros podemos crear un snippet de los emmets, abrimos ctrl + shift + p, abrimos snippets y después html, y vamos a indicar dentro de nuestro json, separando a los demás elementos con comas, y colocamos la estructura, en este caso lo nombramos, indicamos el prefijo y eso, así como se ve abajo:
+"Estructura header": {
+    "prefix": "fullheader",
+    "body": ["ul>li*4>a"],
+    "description": "Estructura completa"
+}
+De esta manera si nos regresamos al html y escribimos fullheader ya nos saldrá nuestro snippet creando a todos los emmets declarados, se pueden crear más cosas con los snippets pero para eso hay que ver la sección de snippets

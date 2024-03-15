@@ -1,0 +1,23 @@
+Así como en excel, word y todo eso, aquí tambíen se encuentran áreas y sus herramientas en cada área, si nosotro smiramos en la barra de la izquierda de VSCODE, nosotros encontramos el Explorer, Search, Source Control, Run and Debug, Extensions; y no solo eso, sino que podemos ocultarlas, dar click derecho y literal ocultar toda la barra.
+Si nos dirigimos a la parte izquierda inferior podemos encontrar el OUTLINE, o el TIMELINE, donde en el TIMELINE indica los cambios que se han realizado en el código.
+Si miramos en la zona derecha inferior, podemos localizar Ln 1, Col 1: que indica la linea y columna en la que nos encontramos, también encontramos los Spaces, que son los espacios predeterminados que se manejarán, es recomendable dejarlo en 4, UTF-8 que sería la codificación, CRLF que serían los saltos de linea para Windows.
+
+1. EXPLORER: Aquí se pueden crear nuevos archivos, carpetas, etc.
+2. SEARCH: Se pueden buscar las coincidencias y reemplazar, una manera rápida de ocuparlo en le area de trabajo, es la que ya conocemos de ctrl + f, así mismo nosotro spodemos seleccionar ciertas opciones, si nosotros seleccionamos Aa: Sería settear el match case, por lo que se indica que va a buscar coincidencias tomando en cuenta que sean mayúsculas y minúsculas, es decir que si buscamos una palabra con alguna letra en mayúscula, pero todo la palabra está en minúscula, no nos arrojará coincidencias; ab: Busca palabras puntuales, es decir que nosotros tenemos trola y buscamos esto, en el predeterminado nos maracaría la palabra controladora, ya que trola es parte de la palabra, pero si seleccionamos esta opción, ya no la va a resaltar y solo buscará específicamente a la palabra trola.
+*: Si seleccionamos esto, podemos colocar expresiones regulares en el buscador y de esta manera buscará las cadenas que cumplan con la expresión regular que nosotros insertemos.
+Para finalizar si bajos la felchita, ya podemos reemplazar la palabra buscada por otra palabra, si nosotros vamos seleccionando enter, enter, enter, vamos reemplazando una por una, sin embargo si nosotros seleccionamos la opción que está a la derecha, podemos seleccionar todas de una.
+3. GIT: De momento nos saltamos esto para ver el curso de git. Pero en pocas palabras es una manera más visual de realizar el git init, git commit, git push y eso. De igual manra con ayuda del TIMELINE podemos ver los cambios que se han realizado.
+4. Run and Debug: Se puede jecutar al programa y que lo corrija linea por linea. De igual manera podemos colocar un punto rojo al principio de las lineas, es decir en donde se ven los númeos de la linea en la que nos encontramos, podemos dar un click y colocamos un punto y eso indica que hastaahí se detiene la ejecución, es decir realizamos un BREAKPOINT, y posterior a eso se nos abrirá un reproductos, en donde podemos seguir abajando de linea por linea y de igual manera al tener abieto el run and debug podemos ir viendo los cambios que se van haciendo, como por ejemlo con el valor de nuestra variables y ese tipo de cosas.
+5. EXTENSIONES: 
+    - palenight: cambia el tema
+    - prettier: formate el código
+    - bearded icons: cambia los íconos
+    - gitlens: nos da gráficos del commit, y herramientas para manejar de mejor manera git
+    - intellicode: trata de completar el código mediante machine learning
+
+CTRL + SHIFT + P: Abre una especie de buscador de comandos, desde aquí se puede controlar cualquier cosa de VisualStudioCode, si nosotros colocamos por ejemplo auto save, podemos activar el autoguardado, pero si nosotros escribimos después file auto save, todo se guarda; esto provoca que las computadoras luego lleguen a ir más lento, porque por cada cosa de que hace, se va auto gurdando.
+
+    - Live Server: Ejecuta un servidor
+    - indent-rainbow: Muestra dónde estamos resaltando a las tabulaciones con diferentes colores
+    - cursor: ponemos control + shift + p / settings json user, y dentro escribimos "editor.cursorBlinking": "expand", existen varias opciones aparte de expand, la predeterminada es blink, u otra interseante es phase, pero ya va más por gustos
+    - editar al mismo tiempo las etiquetas: Otra opción que se puede activa con ctrl + shift + p, es el "editor.linkedEditing": True, de esta manera podemos eliminar o editar las etiquetas que están linkeadas

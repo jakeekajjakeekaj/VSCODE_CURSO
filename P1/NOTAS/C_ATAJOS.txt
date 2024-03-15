@@ -1,0 +1,19 @@
+- ctrl + s: Guarda
+- ctrl + o: Abre archivos
+- ctrl + f: Buscar
+- ctrl + shift + f: Buscador (area)
+- ctrl + shift + p: Abre la paleta de comandos
+- ctrl + shift + n: Abre nueva ventana
+- ctrl + w: Cierra la ventana
+- ctrl + }: Comenta
+- ctrl + g: Nos lleva a una linea específica, si dentro de la misma colocamos una , y después un número, también le indicamos que acceda a determinada columna
+- shift + alt + flechita: Podemos copiar y pegar de manera rápida una linea y se inserta justo abajo
+- alt + flechita: Podemos mover la linea hacia otra linea
+- ctrl + ': Sería el signo después del 0, este nos tabula hacia la izquierda
+- ctrl + ¿: Sería el que viene 2 después del 0, este nos tabula hacia la derecha
+- alt + click: Podemos colocar el cursos en múltiples zonas para escribir el código al mismo tiempo
+- ctrl + alt + fechita: Podemos colocar el cursos en múltiples zonar para escribir el código al mismo tiempo
+- seleccionamos lo que queramos + ctrl + shift + L: Esto reemplaza lo que hemos seleccionado por otra palabra a escribir
+- ctrl + shift + ': Uno a la derecha del 0, esto cierra la vista que está adentro de código, es decir si tenemos una etiqueta con código adentro, este se encarga de cerrar toda esa vista
+- ctrl + shift + ¿: Dos a la derecha del 0, esto hace lo mismo de arriba, solo que ahora lo abre
+- ctrl + shift + p: open keyboard shortcuts, de esta manera podemos asignar nuestros propios atajos de teclado

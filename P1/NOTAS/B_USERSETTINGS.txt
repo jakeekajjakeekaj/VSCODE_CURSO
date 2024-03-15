@@ -1,0 +1,42 @@
+Nosotros podemos acceder a esto con ctrl + shift + p, después podemos abrir el open user setings, que esto sirve para acceder a las configuraciones de usuario, así fue como accedimos a lo de cursor, o editar o eliminar las etiquetas, podemos modificar nuestros temas, etc. con "breadcrumbs.enabled": true podemos mostrar o no mostrar lo que nos aparece arriba del editor, es decir el enrutamiento, osea cuando nos indica P1 > NOTAS > B_USERSETTINGS.txt por ejemplo.
+Básicamente desde aquí se puede configurar toda la interfaz del usuario, si nosotros ocultamos alguna barra con nuestro click derecho, dentro de nuestro archivo json aparece que esta ha sido ocultada, y desde ahí podemos modificarla a nuestro gusto, para incluso quitar la opción de que aparezca desde nuestro click derecho, al final se ve como si fuera una especie de supr administrador xd
+si queremos activar un auto guardado, pero que se guarde cada cierto tiempo, podemos escribir 
+"files.autoSave": "afterDelay",
+"files.autoSaveDelay": 3000,
+De esta manera podemos configurar que se guarde automáticamente cada 3 segundos.
+
+Ahora, si nosotroa tenemos dentro de nuestra carpeta ciertos archivos, por ejemplo cuando creamos un git, pues esta carpeta no es visible dentro de nuestro visual studio code, sin embargo si nosotros escribimos "files.exclude, nos aparecerá los iguiente:
+"files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  }
+Aquí nos muestra todo lo que no se mostrará, es decir que será excluido para acceder a el, sin embargo si nosotros por ejemplo para el .git le colocamos false, ya podremos acceder al archivo desde nuestro visual studio code.
+
+Si nosotros queremos agrandar el tamaño de letra de nuestra terminal, podemos escribir:
+"terminal.integrated.fontsize": 20,
+Y de esta manera hemos podido configurar un tamaño de letra para la terminal, por defecto es 14.
+* se puede hacer lo mismo pero con fontfamily
+
+Si solo queremos que se cambie lo del ditor, podemos escribir
+"editor.fontsize": 20,
+y pasa lo mismo y el por defecto es 14
+
+Si queremos definir los Spaces es:
+"editor.tabSize": 2,
+y de esta manera cambiamos los espacios a 2, aunque se recomienda que sea 4
+
+Si nosotros queremos que se resalte toda la linea o solo una parte de la misma, lo que colocamos es
+"editor.renderLineHighlight": "line",
+se declara que se cambie el resaltado, el "line" es le por defecto, pero si se seleccionan otras cosas pues se resaltan estas otras cosas, por ejemplo al sustituir el "line" por "all" resaltamos todo, si seleccionamos "gutter" solo resaltamos a los números, si seleccionamos "none" no se resalta nada
+
+Si nosotros queremos dejar de estar presionando a cada rato el alt + z, podemos escribir en el settings.json
+"editor.wordWrap": "on",
+y de esta manera ya sustituimos esta acción
+
+Si queremos que nos desaparezcan las sugerencias que podría llegar a ser  olesto, tenemos que escribir:
+"editor.hover.enabled": false,
+y de esta manera desaparecen las sugerencias
