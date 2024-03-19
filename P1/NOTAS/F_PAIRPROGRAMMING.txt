@@ -1,0 +1,5 @@
+El PAIR PROGRAMMING es la manera en que 2 desarrolladores trabajarán juntos de la mejor manera, este tiene 2 fundamentos que son los roles:
+- driver (conductor): Es la persona que tiene el teclado y la que se encarga de escribir.
+- copiloto: Es como el ayudante, su rol es ir revisando el código a la medida que se va escribiendo, tiene que pesnar en el problema en general, ofreciendo alternativas mejores.
+
+Una manera de poder ocupar esto, es con GITHUB COPILOT, esto serive para tener una IA que te ayude a programar, el GITHUB COPILOT es de pago y tiene la gran ventaja de que usa a todos los repositorios alojados en github para alimentarse, pero existe una prueba gratuita de 30 días. ** VALE BASTANTE LA PENA **
